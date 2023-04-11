@@ -15,11 +15,12 @@
     "schemes": ["http"],
     "host": "localhost:3080",
     "basePath": "/api",
+    
     "paths" : {
         "/todos" : {
             "get" : {
                 "summary" : "Get all the tasks",
-                "description": "Get all the tasks",
+                "description": "Get ALL the tasks",
                 "produces": ["application/json"],
                 "parameters": [],
                 "responses": {
